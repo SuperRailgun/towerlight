@@ -2,12 +2,12 @@
   "name": "@towerlight/docs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "vitepress": "^0.6.0"
   }
