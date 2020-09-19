@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { AngularUniversalModule } from '@nestjs/ng-universal';
 import { join } from 'path';
 
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import { AppServerModule } from '@towerlight/client/src/main.server';
 
 import { AppController } from './app.controller';
