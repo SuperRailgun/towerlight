@@ -1,4 +1,4 @@
-# 安装
+## 安装
 
 ```shell
 npx create-nx-workspace@latest
@@ -10,7 +10,7 @@ npx create-nx-workspace@latest
 npm install -D @nrwl/angular
 ```
 
-## angular
+### angular
 
 安装 nx 的 angular 插件
 
@@ -38,18 +38,18 @@ nx generate @nrwl/angular:application --name=client --style=scss --linter=eslint
   ```json
   (tslint, codelyzer)
   ```
-  
+
 - 使用 angluar.json 以配合 ng 命令行
 
   https://github.com/atowerlight/towerlight/commit/4de6fe02526c2afec7006b9b9c5224f08bcabc91
 
-## nestjs
+### nestjs
 
 ```shell
 ng generate @nrwl/nest:application --name=api --frontendProject=client
 ```
 
-# tsconfig.base.json
+#### tsconfig.base.json
 
 ```json
 {
