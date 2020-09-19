@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "docs": "vitepress dev docs",
-    "docs:build": "vitepress build docs"
+    "docs": "vitepress",
+    "docs:build": "vitepress build"
   },
   "author": "",
   "license": "MIT",

@@ -17,7 +17,6 @@ const head = [];
 
 /** @type {UserConfig} */
 const config = {
-  outDir: join(process.cwd(), 'dist/docs'),
   lang: 'zh-CN',
   title: 'TowerLight',
   description: 'TowerLight',
