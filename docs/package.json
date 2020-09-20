@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "docs": "vitepress",
-    "docs:build": "vitepress build dist"
+    "docs:build": "vitepress build"
   },
   "author": "",
   "license": "MIT",
